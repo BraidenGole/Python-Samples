@@ -34,7 +34,8 @@ def delete_item_in_food_list(item_to_delete):
         if (item == item_to_delete):
             count = count + 1
             food.remove(item)
-    if (count > 0) : return True
+    if (count > 0):
+        return True
     return False
 
 while (True):
