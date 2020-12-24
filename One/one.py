@@ -2,7 +2,7 @@
     [ DESCRIPTION ]: This is the first sample file
                      of python and I would like to mention
                      that when writing Python 3 code I will
-                     do my best to stay on tract with proper
+                     do my best to stay on top with proper
                      style from the PEP Styling index.
     
     Link below [PEP-8 -- Style Guide for Python Code]:
