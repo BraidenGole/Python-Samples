@@ -126,7 +126,7 @@ if __name__ == "__main__":
     super_smash_bros = bro.delete_brothers(super_smash_bros)
 
     # super_smash_bros.clear(): Provides absolute clearing of the list, 
-    # BUT or method will delete it and fill with a "None" marker
+    # BUT our method will delete it and fill with a "None" marker
     # to indicate that the position is empty no-content.
     print("\nThis is the deleted list filled with (None) markers: ", super_smash_bros)
     
