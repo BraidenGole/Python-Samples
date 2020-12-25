@@ -11,6 +11,9 @@
     [REMEMBER]: In Python we can work with (set) objects or (frozenset) obects,
                 the difference between a (set) & (frozenset) is that a (frozenset)
                 is immutable after the sets have been transformed.
+    ----------------------------------------------------------------------------------
+    This file uses almost all of the [METHODS] that come with the frozen object or set
+    object this is a demonstration of just that.
 """
 # Write a few initialized test sets.
 set_a = [4, 7, 2, 1, 0, -5]
