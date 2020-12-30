@@ -45,9 +45,9 @@ class SuperSmashBro:
         return load
 
     # A @classmethod: Suggest that this method is only a part of this
-    # class and must be accessed through a empty constructor instance
-    # in order to use this method. No other classes will have access
-    # to this method.
+    # class and not the object. It has the potential to modify a data member
+    # across all instances. The decorator allows you to change the state of
+    # the class rather than its object.
     @classmethod
     def reverse_bro_name(cls, name_of_bro):
         """[Reverses a super smash bro name.]
@@ -61,11 +61,10 @@ class SuperSmashBro:
         reversed_name = name_of_bro[::-1]
         return reversed_name
 
-    # A @staticmethod: Suggest that we do not have to create
-    # an object from a empty constructor we can explicitly call the
-    # method as if it is not bound to the class. This allows us not
-    # to have to class the method with '.' DOT notation instead we can
-    # call directly.
+    # @staticmethod: This method is bound to its class
+    # but not the object iteself. The @staticmethod just
+    # deals with the parameters of the function rather
+    # than dealing with an instance of a class.
     @staticmethod
     def display_all_brothers(list_of_brothers):
         """[Displays all super smash bros.]
