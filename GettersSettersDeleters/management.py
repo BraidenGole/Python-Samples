@@ -110,11 +110,7 @@ class CEO:
         return message
 
 if __name__ == "__main__":
-
-    # We must fill the instance through the parameters of
-    # the class ONLY thats how we get our encapsulation
-    # then we can call the values anywhere now that we have get
-    # functions.
+    # Instantiate a ceo.
     ceo = CEO("Braiden", "Gole", "braiden_gole@gmail.com")
 
     # Print out the string readable representation of the ceo.
