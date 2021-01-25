@@ -76,7 +76,7 @@ if __name__ == "__main__":
                <small><strong>Date sent:</strong> {2}</small>
                """.format(_to_address, gitHubLink, today)
 
-    # Create the email object.
+    # Instantiate an email object.
     email_1 = ConsoleEmailer(_from_address, _to_address, _subject, _message, _gmail_host, _port_number)
 
     _password = "<Password>"
