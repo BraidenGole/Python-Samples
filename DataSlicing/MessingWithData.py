@@ -75,7 +75,7 @@ if __name__ == "__main__":
     # Initialized chunk of data to slice from.
     chunk = [
         {"ID": 1, "Name": "John", "Email": "john32@gmail.com", "Country": "Canada",},
-        {"ID": 2, "Name": "Sean", "Email": "sean_emerie", "Country": "Vancover",},
+        {"ID": 2, "Name": "Sean", "Email": "sean_emerie@gmail.com", "Country": "Vancover",},
         {"ID": 3, "Name": "Shannon", "Email": "shannon_101@hotmail.com", "Country": "Germany",},
         {"ID": 4, "Name": "Kayla", "Email": "Kay_kay12@gmail.com", "Country": "Canada",},
         {"ID": 5, "Name": "Steven", "Email": "steve@yahoo.com", "Country": "Germany",},
@@ -86,8 +86,8 @@ if __name__ == "__main__":
         {"ID": 10, "Name": "David", "Email": "sifu_kung_fu90@gmail.com", "Country": "Canada",},
         {"ID": 11, "Name": "Brant", "Email": "businessMan@yahoo.com", "Country": "Vancover",},
         {"ID": 12, "Name": "Justin", "Email": "longBoarder@gmail.com", "Country": "Germany",},
-        {"ID": 13, "Name": "Lori", "Email": "lor_f123@hotmai.com", "Country": "Vancover",},
-        {"ID": 14, "Name": "Jason", "Email": "bankManagerCibc@yeahoo.com", "Country": "Canada",},
+        {"ID": 13, "Name": "Lori", "Email": "lori_123@hotmail.com", "Country": "Vancover",},
+        {"ID": 14, "Name": "Jason", "Email": "bankManagerCibc@yahoo.com", "Country": "Canada",},
         {"ID": 15, "Name": "Anna", "Email": "anna_v_178@gmail.com", "Country": "Vancover",},
         {"ID": 16, "Name": "Veronica", "Email": "Skater101Girl@gmail.com", "Country": "Vancover",},
         {"ID": 17, "Name": "Eddie", "Email": "eddie@hotmail.com", "Country": "Germany",},
