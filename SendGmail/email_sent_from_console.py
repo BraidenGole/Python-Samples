@@ -5,6 +5,10 @@
     to one recipient.
 
     [IMPORTANT]: You must turn off less secure apps on your Google account.
+    
+    If we do not do this the email will NOT be sent !
+    [SOURCE / Turn Off Less secure apps]
+        https://support.google.com/accounts/answer/6010255?hl=en
 """
 __title__ = "Sample Twelve."
 __author__ = "Braiden Gole"
