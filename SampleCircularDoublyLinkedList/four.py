@@ -7,6 +7,9 @@
     PEP(Python Enhancement Proposal): for proper styling of python code.
 
     This is a simple implementation of a custom circular doubly linked list.
+    
+    [MAJOR FIX] (2021-01-29) Changed display function now will print every
+                             entry entered into the record !
 """
 __title__ = "Sample Four."
 __author__ = "Braiden Gole"
@@ -123,15 +126,14 @@ class CircularDoublyLinkedList:
             if (self.head == self.tail):
                 return False
             
-
     def display_users(self):
         """[This method will display all users in the circular doubly linked list.]"""
-        self.head = self.tail
+        head_reference = self.head
         while (True):
-            if (self.head != None):
-                print(self.head.name, self.head.last, self.head.email)
-            self.head = self.head.next
-            if (self.head == self.tail):
+            if (head_reference != None):
+                print(head_reference.name, head_reference.last, head_reference.email)
+            head_reference = head_reference.next
+            if (head_reference == self.head):
                 break
     
     def cycle_through_users(self):
@@ -154,7 +156,7 @@ if __name__ == "__main__":
 
     # Empty constructor calls.
     circDll = CircularDoublyLinkedList()
-
+    
     while (keep_adding_users):
         try:
             print("\n-- CIRCULAR DOUBLY LINKED USER LIST --")
