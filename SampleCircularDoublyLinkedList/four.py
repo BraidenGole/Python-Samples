@@ -8,7 +8,8 @@
 
     This is a simple implementation of a custom circular doubly linked list.
     
-    [MAJOR FIX] (2021-01-29) Changed display function now will print every
+    Update (2021-01-29)
+    [MAJOR FIX]: Changed display function now will print every
                              entry entered into the record !
 """
 __title__ = "Sample Four."
