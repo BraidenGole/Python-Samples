@@ -3,6 +3,9 @@
 
     We are scraping all of the commands and descriptions off of a tutorials points
     website.
+    
+    The result of all of this will be pushed to a file, this file will be made
+    in the local directory if it does not exist !
 
     This my first webscraper !
 """
@@ -33,7 +36,7 @@ class WebScraper:
                 outputFile.writelines(os.text + "\n\n")
 
 if __name__ == "__main__":
-
+    
     _url = "https://www.tutorialspoint.com/batch_script/batch_script_commands.htm"
     scrape = WebScraper(_url)
     scrape.scrape_commands()
