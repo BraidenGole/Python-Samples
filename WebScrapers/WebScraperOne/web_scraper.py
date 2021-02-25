@@ -3,6 +3,9 @@
 
     We are scraping all of the commands and descriptions off of a tutorials points
     website.
+    
+    The result will be pushed to a file that will be created in the local directory
+    if it does not exist already.
 
     This my first webscraper !
 """
