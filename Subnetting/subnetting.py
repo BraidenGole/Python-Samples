@@ -143,6 +143,15 @@ class Subnetting:
             return number_of_hosts
         else:
             return -1
+
+    # Display function to clean things up.
+    def display_network_information(self, class_ip, netaddr, mask_bits, sub_bits, max_subnet, max_hosts):
+        print("Class: ", class_ip)
+        print("Network address:", netaddr)
+        print("Mask bits:", mask_bits)
+        print("Subnet bits:", sub_bits)
+        print("Maximum subnets:", max_subnet)
+        print("Maximum amount of hosts:", max_hosts)
     
     
 if __name__ == "__main__":
@@ -164,12 +173,8 @@ if __name__ == "__main__":
         maximum_subnets_a = sub.determine_maximum_subnets(subnet_bits_a)
         maximum_host_number_a = sub.calculate_maximum_hosts_in_subnet(mask_bits_a)
 
-        print("Class: ", whatClassIsIp)
-        print("Network address:", network_address_a)
-        print("Mask bits:", mask_bits_a)
-        print("Subnet bits:", subnet_bits_a)
-        print("Maximum subnets:", maximum_subnets_a)
-        print("Maximum amount of hosts:", maximum_host_number_a)
+        sub.display_network_information(whatClassIsIp, network_address_a, mask_bits_a, subnet_bits_a,
+                                        maximum_subnets_a, maximum_host_number_a)
     elif (whatClassIsIp == 'B'):
         network_address_b = sub.calculate_network_address()
         mask_bits_b = sub.determine_mask_bits()
@@ -177,12 +182,8 @@ if __name__ == "__main__":
         maximum_subnets_b = sub.determine_maximum_subnets(subnet_bits_b)
         maximum_host_number_b = sub.calculate_maximum_hosts_in_subnet(mask_bits_b)
 
-        print("Class: ", whatClassIsIp)
-        print("Network address:", network_address_b)
-        print("Mask bits:", mask_bits_b)
-        print("Subnet bits:", subnet_bits_b)
-        print("Maximum subnets:", maximum_subnets_b)
-        print("Maximum amount of hosts:", maximum_host_number_b)
+        sub.display_network_information(whatClassIsIp, network_address_b, mask_bits_b, subnet_bits_b,
+                                        maximum_subnets_b, maximum_host_number_b)
     elif (whatClassIsIp == 'C'):
         network_address_c = sub.calculate_network_address()
         mask_bits_c = sub.determine_mask_bits()
@@ -190,12 +191,8 @@ if __name__ == "__main__":
         maximum_subnets_c = sub.determine_maximum_subnets(subnet_bits_c)
         maximum_host_number_c = sub.calculate_maximum_hosts_in_subnet(mask_bits_c)
 
-        print("Class: ", whatClassIsIp)
-        print("Network address:", network_address_c)
-        print("Mask bits:", mask_bits_c)
-        print("Subnet bits:", subnet_bits_c)
-        print("Maximum subnets:", maximum_subnets_c)
-        print("Maximum amount of hosts:", maximum_host_number_c)
+        sub.display_network_information(whatClassIsIp, network_address_c, mask_bits_c, subnet_bits_c,
+                                        maximum_subnets_c, maximum_host_number_c)
     elif (whatClassIsIp == 'D'):
         print("Multicast !")
     elif (whatClassIsIp == 'E'):
