@@ -7,7 +7,7 @@
 __title__ = "Bank Management System"
 __author__ = "Braiden Gole"
 __version__ = "1.0.0"
-__copyright__ = "Copyright 2020, Braiden Gole"
+__copyright__ = "Copyright 2021, Braiden Gole"
 __date__ = "2021-03-08"
 
 import random
