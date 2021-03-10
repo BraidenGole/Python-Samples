@@ -8,6 +8,11 @@
         4. EdUruGdcp3Cgse9PQaW9
         5. rqcOphesfemKKh0t66xN
 """
+__title__ = "Password Generator"
+__author__ = "Braiden Gole"
+__version__ = "1.0.0"
+__copyright__ = "Copyright 2020, Braiden Gole"
+__date__ = "2021-03-09"
 
 import random
 import string
