@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
     _word_to_scramble = "Braiden"
     generator = PasswordGenerator(_word_to_scramble)
-    built_password = generator.build_password()
+    generator.build_password()
     scramble_password = generator.scramble_password()
     generated_password = generator.format_password(scramble_password)
 
